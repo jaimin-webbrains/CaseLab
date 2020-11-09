@@ -21,3 +21,14 @@ Front-End: ReactJs.
 Back-End: NodeJs.
 
 DataBase: MySQL.
+
+
+## How to start
+
+1. Go to NODE folder and run "npm i".
+
+2. Go to server folder and run "npm i".
+
+3. Setup Database.
+
+4. Run npm start in NODE and Server folder to start Frontend and server respectively.
