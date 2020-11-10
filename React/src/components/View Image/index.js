@@ -109,15 +109,13 @@ class ViewImage extends React.Component {
                         <Typography variant="h6" color="primary" gutterBottom>
                             {this.state.caseName}
                         </Typography>
-                        <pre>
-                            <Typography
-                                variant="body1"
-                                gutterBottom
-                                className={classes.caseDescription}
-                            >
-                                {this.state.caseDescription}
-                            </Typography>
-                        </pre>
+                        <Typography
+                            variant="body1"
+                            gutterBottom
+                            className={classes.caseDescription}
+                        >
+                            {this.state.caseDescription}
+                        </Typography>
                         <div className={classes.imageDisplaySection}>
                             {this.state.fileArray.map((imageData, index) => {
                                 return (
