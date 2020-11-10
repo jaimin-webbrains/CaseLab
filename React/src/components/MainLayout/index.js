@@ -25,11 +25,7 @@ class MainLayout extends React.Component {
                             <Navigation />
                         </Route>
                     </Switch>
-                    <div
-                        style={{
-                            marginLeft: "50px",
-                        }}
-                    >
+                    <div>
                         <BodyLayout />
                     </div>
                 </div>
