@@ -31,4 +31,4 @@ DataBase: MySQL.
 
 3. Setup Database using "query.sql" in Folder.
 
-4. Run npm start in NODE and React folder to start Frontend and server respectively.
+4. Run npm start in NODE and node appServer.js in React folder to start Frontend and server respectively.
