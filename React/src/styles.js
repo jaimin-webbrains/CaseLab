@@ -33,12 +33,14 @@ export const styles = (theme) => ({
         marginBottom: 20,
     },
     imageSection: {
-        width: 350,
+        width: "50%",
         marginBottom: 10,
+        [theme.breakpoints.down(600)]: {
+            width: "100%",
+        },
     },
     imageBox: {
-        height: "500px",
-        width: "300px",
+        width: "100%",
         objectFit: "fit",
     },
     imageTitle: {
