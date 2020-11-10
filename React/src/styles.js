@@ -18,7 +18,12 @@ export const styles = (theme) => ({
     },
     //Add and View Image styles >>>>>>>>>>>>
     formControl: {
-        width: "230px",
+        width: "100%",
+        [theme.breakpoints.down(700)]: {
+            display: "flex",
+            flexDirection: "column",
+            margin: "0 !importtant",
+        },
     },
     buttonWrapper: {
         marginTop: 10,
@@ -35,7 +40,7 @@ export const styles = (theme) => ({
     imageSection: {
         width: "50%",
         marginBottom: 10,
-        [theme.breakpoints.down(600)]: {
+        [theme.breakpoints.down(700)]: {
             width: "100%",
         },
     },
@@ -45,10 +50,7 @@ export const styles = (theme) => ({
     },
     imageTitle: {
         backgroundColor: "lightgrey",
-        marginRight: "50px",
-        paddingLeft: "20px",
-        paddingTop: "5px",
-        paddingBottom: "5px",
+        marginRight: 10,
     },
     tools: {
         marginTop: "10px",
@@ -74,6 +76,9 @@ export const styles = (theme) => ({
     },
     caseDescription: {
         width: "40%",
+        [theme.breakpoints.down(800)]: {
+            width: "100%",
+        },
     },
     viewNextImage: {
         display: "flex",
@@ -97,8 +102,9 @@ export const styles = (theme) => ({
         margin: "auto",
         paddingTop: 10,
         paddingBottom: 10,
-        [theme.breakpoints.down(600)]: {
-            width: "100%",
+        [theme.breakpoints.down(800)]: {
+            width: "90%",
+            marginLeft: "45px",
         },
     },
     bodySubSection: {
@@ -160,7 +166,10 @@ export const styles = (theme) => ({
 
     //Case styles >>>>>>>>>>
     caseContainer: {
-        width: 350,
+        width: "45%",
         marginBottom: 10,
+        [theme.breakpoints.down(900)]: {
+            width: 350,
+        },
     },
 });
